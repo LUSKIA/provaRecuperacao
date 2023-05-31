@@ -1,0 +1,134 @@
+/* *{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+} */
+body{
+    background-color: darkgrey;
+    
+}
+.div-pai{
+
+    width: 1280px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 18px;
+
+background: #FFFFFF;
+}
+.titulo-f{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 196px;
+    height: 39px;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 118px;
+}
+.titulo-n{
+
+    font-family: 'Inter';
+    font-style: normal;
+    width: 349px;
+    height: 42px;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 2rem;
+
+}
+ul{
+    border: 2px solid black;
+    width: 580px;
+    height: 76px;
+    padding: 24px 22px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 74px;
+    gap: 54px;
+    flex-direction: row;
+    display: flex;
+    
+}
+ul li {
+    text-decoration: none; 
+    font-family: 'Roboto';
+    font-style: normal;
+    justify-content: space-around;
+    color: black;
+    list-style: none;
+    font-size: 20px;
+    padding: 1rem;
+    
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #000000;
+    
+}
+.img-1{
+    grid-area: img-1;
+    width: 815px;
+    height: 340px;
+    margin-left: 30px;
+}
+
+.img-2{
+    grid-area: img-2;
+    width: 426px;
+    height: 694.85px;
+    margin-right: 13px;
+    margin-bottom: 25.15px;
+}
+
+.img-3{
+    grid-area: img-3;
+    width: 402px;
+    height: 340px;
+    margin-left: 30px;
+    padding-top: 1px;
+}
+
+.img-4{
+    grid-area: img-4;
+    width: 402px;
+    height: 340px;
+    padding-left: 13px;
+    padding-top: 1px;
+}
+
+.main{ 
+        display: grid; 
+        grid-template-areas: 
+          "img-1 img-1 img-2"
+          "img-3 img-4 img-2";
+} 
+.pt-baixo{
+    width: 1280px;
+    height: 302px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 18px;
+
+background: #FFFFFF;
+}
+.pzin{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 111px;
+
+}
+.divizinha img{
+    padding: 1rem;
+}
